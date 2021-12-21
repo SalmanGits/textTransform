@@ -5,7 +5,7 @@ var darkmode = document.querySelector('#flexSwitchCheckDefault')
 var dark = document.querySelector('.dark')
 var black = document.querySelector('.black')
 var butto = document.querySelector('#btn4')
-var clear = document.querySelector('.clear')
+// var clear = document.querySelector('.clear')
 
 
 function change() {
@@ -40,6 +40,6 @@ darkmode.addEventListener('click', () => {
 butto.addEventListener('click', () => {
     document.querySelector('#text').value = ""
 })
-butto.addEventListener('click', () => {
-    clear.textContent =""
-})
+// butto.addEventListener('click', () => {
+//     clear.textContent =""
+// })
