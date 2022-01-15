@@ -37,5 +37,8 @@ darkmode.addEventListener('click', () => {
 })
 butto.addEventListener('click', () => {
     document.querySelector('#text').value = ""
+     document.querySelector('#div1').textContent = ""
+    document.querySelector('#div2').textContent = ""
+    document.querySelector('#div3').textContent = ""
 })
 
